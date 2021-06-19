@@ -1,0 +1,8 @@
+{
+  "tailwindCSS.experimental.classRegex": [
+    ["(?:afterOpen|base|beforeClose)(?:=|:)\\s*(?:\"|'|`)([^(?:\"|'|`)]*)"],
+    ["(?:classnames|cx|clsx)\\(([^)]*)\\)", "\"([^\"]*)\""],
+    ["(?:classnames|cx|clsx)\\(([^)]*)\\)", "'([^']*')"],
+    ["(?:classnames|cx|clsx)\\(([^)]*)\\)", "`([^`]*`)"]
+  ]
+}
